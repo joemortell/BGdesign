@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">	
+	<!-- saved from url=(0014)about:internet -->
+<head>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		<title>BGDesign</title>
+				
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="title" content="BGDesign" />
+<meta name="keywords" content="BGDesign, BGDesign, jAlbum 10, Galleria" />
+<meta name="description" content="BGDesign" />
+<meta property="og:title" content="BGDesign" />
+<meta property="og:site_name" content="Jalbum" />
+<meta property="fb:app_id" content="140299612674733" />
+		<link href="res/galleria/galleria.css" rel="stylesheet" type="text/css" />
+		<link href="res/index.css" rel="stylesheet" type="text/css" />		
+		<link href="res/common.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+	.thumbnails li {
+		width: 90px;
+		height: 90px;
+	}
+
+	#middle_container {
+		height: 838px;
+	}
+
+	#scroller_container {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		width: 812px;	
+	}
+
+	#image_scroller {
+		margin: 0 10px 0 20px;
+		width: 742px;
+	}
+	
+	#thumbnails_container {
+		width: 4664px;
+	}
+	
+	#scroller_container,
+	#image_scroller,
+	#thumbnails_container {
+		height: 106px;
+	}
+	
+	#folders_container {
+		;
+	}		
+	
+	.folders {
+		width: 0px;
+	}
+	
+	.folders li {
+		width: 106px;
+		height: 106px;
+	}
+	
+	.caption,
+	.description {
+		width: 742px;
+	}
+</style>
+		<script src="res/jquery.js" type="text/javascript"></script>
+			<script src="res/jquery.hotkeys.js" type="text/javascript"></script>
+	<script src="res/galleria/jquery.galleria.js" type="text/javascript"></script>
+	<script src="res/jquery.scrollimages.js" type="text/javascript"></script>	
+	<script type="text/javascript"><!--//--><![CDATA[//><!--	
+		$(function() {
+			$("#thumbnails_container").imageScroller({
+				onBeforeScroll: function() { $.galleria.stop() },
+				onScroll: function() { $.galleria.start() }, 
+				duration: 120, 
+				imageWidth: 106, 
+				size: 7,
+				fastSteps: 5
+			});
+			
+			var formattedThumbnailOpacity = 67/100;
+			
+			$(".thumbnails_unstyled").addClass("thumbnails");
+			$("ul.thumbnails").galleria({
+				history: false,
+				clickNext: true,
+				insert: "#main_image",
+				onImage: function(image, caption, thumb) {
+					var extras = $("#extras").css("display", "none").empty();
+					image.css("display", "none").fadeIn(500);
+					caption.css("display", "none").fadeIn(500);
+					
+					if (false) {
+						var extrasList = $("<ul></ul>");
+						extrasList.addMetadata("Date", thumb.data("originalDate"));
+						extrasList.addMetadata("Camera", thumb.data("cameraModel"));
+						extrasList.addMetadata("Exposure time", thumb.data("exposureTime"));
+						extrasList.addMetadata("ISO", thumb.data("isoEquivalent"));
+						extrasList.addMetadata("Aperture", thumb.data("aperture"));
+						extrasList.addMetadata("Focus distance", thumb.data("focusDistance"));
+						extrasList.addMetadata("Focal length", thumb.data("focalLength35mm"));
+						extrasList.addMetadata("Keywords", thumb.data("keywords"));
+						if (extrasList.children().length > 0) {
+							extras.append(extrasList);						
+							extrasList.find(":first-child").addClass("first");
+							extras.css({ 
+								width : (image.outerWidth() - (5 * 2) + 100) + "px" 
+							}).fadeIn(500);
+						}
+					}
+					
+					var li = thumb.parents("li");
+					li.siblings().children("img.selected").fadeTo(500, formattedThumbnailOpacity);
+					thumb.fadeTo("fast", 1).addClass("selected");
+					image.attr("title", "Next image");
+					
+					var original = thumb.data("original");
+					if (original) {
+						var originalLink = $("<a></a>").attr("href", original).text("Download original");
+						caption.append(" (").append(originalLink).append(")");
+					}
+				},
+				onThumb: function(thumb) {
+					var li = thumb.parents("li");
+					var fadeTo = li.is(".active") ? "1" : formattedThumbnailOpacity;
+					thumb.css({display: "none", opacity: fadeTo}).fadeIn(1500);
+					thumb.hover(
+						function() { 
+							thumb.fadeTo("fast", 1);		
+						},
+						function() {
+							li.not(".active").children("img").fadeTo("fast", formattedThumbnailOpacity);
+						}
+					)
+				},
+				preloads: 3,
+				fastSteps: 5,
+				onPrev: function() {
+					$.imageScroller.scrollLeft();
+				},
+				onNext: function() {
+					$.imageScroller.scrollRight();
+				},
+				onPrevFast: function() {
+					$.imageScroller.fastScrollLeft();
+				},
+				onNextFast: function() {
+					$.imageScroller.fastScrollRight();
+				},
+				enableSlideshow : false,
+				autostartSlideshow : false,
+				slideshowDelay : 3000,
+				onSlideshowPlayed : function() {
+					$('.play').hide();
+					$('.pause').show();	
+				},
+				onSlideshowPaused : function() {
+					$('.play').show();
+					$('.pause').hide();
+				}
+			});
+			
+			$.galleria.loader = $("<div></div>").addClass("loader").append($(new Image()).attr("src","res/loader.gif").attr("title","Loading..."));
+			
+			prepareArrow = function(arrow) {
+				arrow.css({display: "none", opacity: 0.5, "padding-top": "28px"}).fadeIn( 1000);			
+				arrow.hover(
+					function() {
+						arrow.fadeTo("fast", 1);
+					},
+					function() {
+						arrow.fadeTo("fast", 0.5);			
+					}
+				);	
+			}
+			
+			var leftArrow = $("#left_arrow");
+			prepareArrow(leftArrow);
+			leftArrow.click(function() {
+				$.galleria.prev();	
+			});
+			
+			var rightArrow = $("#right_arrow");
+			prepareArrow(rightArrow);
+			rightArrow.click(function() {
+				$.galleria.next();
+			});
+			
+			if (false) {
+				var leftFastArrow = $("#left_fast_arrow");
+				prepareArrow(leftFastArrow);
+				leftFastArrow.click(function() {
+					$.galleria.prevFast();
+				});
+				
+				var rightFastArrow = $("#right_fast_arrow");
+				prepareArrow(rightFastArrow);
+				rightFastArrow.click(function() {
+					$.galleria.nextFast();
+				});
+			}
+		});
+
+		$(document).bind("keydown", "left", function() {
+			if (!KeyboardNavigation.widgetHasFocus()) {
+				$.galleria.prev();
+			}
+		});
+		$(document).bind("keydown", "right", function() {
+			if (!KeyboardNavigation.widgetHasFocus()) {
+				$.galleria.next();
+			}
+		});
+		$(document).bind("keydown", "space", function() {
+			if (!KeyboardNavigation.widgetHasFocus()) {
+				$.galleria.toggleSlideshow();
+			}
+		});
+
+		var KeyboardNavigation = {
+			widgetHasFocus: function() {
+				if(typeof _jaWidgetFocus != 'undefined' && _jaWidgetFocus) {
+					return true;
+				}
+				return false;
+			}
+		}
+	//--><!]]></script>
+
+	<link rel="alternate" href="album.rss" type="application/rss+xml"/>
+</head>
+	<body>
+		<div id="header">
+			<div id="top_container" class="border">
+						<h1>BGDesign</h1>
+							
+					
+			</div>
+				
+		</div>
+<div id="main">
+		<div id="scroller_container">
+			<img class="hide" id="left_arrow" src="res/left.png" alt="Scroll left" title="Scroll left" />					
+			<div id="image_scroller">
+				<ul id="thumbnails_container" class="thumbnails_unstyled">
+						<li class="active">
+									
+
+							<a href="slides/DSC_0186.JPG" title="1">
+										
+								<img src="thumbs/DSC_0186.JPG" alt="1" title="1" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/DSC00581.jpg" title="2">
+										
+								<img src="thumbs/DSC00581.jpg" alt="2" title="2" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:640;;height:414</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/DSC00583.JPG" title="3">
+										
+								<img src="thumbs/DSC00583.JPG" alt="3" title="3" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:683</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/DSC00584.jpg" title="4">
+										
+								<img src="thumbs/DSC00584.jpg" alt="4" title="4" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:640;;height:426</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/DSC00593.JPG" title="5">
+										
+								<img src="thumbs/DSC00593.JPG" alt="5" title="5" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:683</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/DSC00605.jpg" title="6">
+										
+								<img src="thumbs/DSC00605.jpg" alt="6" title="6" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:640;;height:414</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Bathroom.jpg" title="7">
+										
+								<img src="thumbs/Bathroom.jpg" alt="7" title="7" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:685</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Garden.jpg" title="8">
+										
+								<img src="thumbs/Garden.jpg" alt="8" title="8" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:685</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Garden2.jpg" title="9">
+										
+								<img src="thumbs/Garden2.jpg" alt="9" title="9" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:685</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Glass.jpg" title="10">
+										
+								<img src="thumbs/Glass.jpg" alt="10" title="10" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:685</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Piano.jpg" title="11">
+										
+								<img src="thumbs/Piano.jpg" alt="11" title="11" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:685</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Stairs.jpg" title="12">
+										
+								<img src="thumbs/Stairs.jpg" alt="12" title="12" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:685</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_bathroom.JPG" title="13">
+										
+								<img src="thumbs/Ferry_House_-_bathroom.JPG" alt="13" title="13" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_bedroom-2.JPG" title="14">
+										
+								<img src="thumbs/Ferry_House_-_bedroom-2.JPG" alt="14" title="14" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_bedroom2-4.JPG" title="15">
+										
+								<img src="thumbs/Ferry_House_-_bedroom2-4.JPG" alt="15" title="15" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_dining_room-2.JPG" title="16">
+										
+								<img src="thumbs/Ferry_House_-_dining_room-2.JPG" alt="16" title="16" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_kitchen-2.JPG" title="17">
+										
+								<img src="thumbs/Ferry_House_-_kitchen-2.JPG" alt="17" title="17" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_rear_extl-1.JPG" title="18">
+										
+								<img src="thumbs/Ferry_House_-_rear_extl-1.JPG" alt="18" title="18" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_reception-3.JPG" title="19">
+										
+								<img src="thumbs/Ferry_House_-_reception-3.JPG" alt="19" title="19" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_reception2-3.JPG" title="20">
+										
+								<img src="thumbs/Ferry_House_-_reception2-3.JPG" alt="20" title="20" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_reception3-5.JPG" title="21">
+										
+								<img src="thumbs/Ferry_House_-_reception3-5.JPG" alt="21" title="21" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_-_reception4-3.JPG" title="22">
+										
+								<img src="thumbs/Ferry_House_-_reception4-3.JPG" alt="22" title="22" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Ferry_House_£3-2.95m.JPG" title="23">
+										
+								<img src="thumbs/Ferry_House_£3-2.95m.JPG" alt="23" title="23" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:681</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Kitchen 1.jpg" title="24">
+										
+								<img src="thumbs/Kitchen 1.jpg" alt="24" title="24" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:808</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Kitchen 3.jpg" title="25">
+										
+								<img src="thumbs/Kitchen 3.jpg" alt="25" title="25" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:808</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/ph 01.jpg" title="26">
+										
+								<img src="thumbs/ph 01.jpg" alt="26" title="26" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:698</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/ph 02.jpg" title="27">
+										
+								<img src="thumbs/ph 02.jpg" alt="27" title="27" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:684</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/ph 05.jpg" title="28">
+										
+								<img src="thumbs/ph 05.jpg" alt="28" title="28" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:701</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan1.jpg" title="29">
+										
+								<img src="thumbs/Scan1.jpg" alt="29" title="29" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:774</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan2.jpg" title="30">
+										
+								<img src="thumbs/Scan2.jpg" alt="30" title="30" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:773</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan3.jpg" title="31">
+										
+								<img src="thumbs/Scan3.jpg" alt="31" title="31" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:775</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan4.jpg" title="32">
+										
+								<img src="thumbs/Scan4.jpg" alt="32" title="32" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:774</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan5.jpg" title="33">
+										
+								<img src="thumbs/Scan5.jpg" alt="33" title="33" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:706</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan6.jpg" title="34">
+										
+								<img src="thumbs/Scan6.jpg" alt="34" title="34" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:775</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan7.jpg" title="35">
+										
+								<img src="thumbs/Scan7.jpg" alt="35" title="35" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:699</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/Scan8.jpg" title="36">
+										
+								<img src="thumbs/Scan8.jpg" alt="36" title="36" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:717</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/SCAN0047.JPG" title="37">
+										
+								<img src="thumbs/SCAN0047.JPG" alt="37" title="37" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:799</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/SCAN0048.JPG" title="38">
+										
+								<img src="thumbs/SCAN0048.JPG" alt="38" title="38" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:740</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/SCAN0049.JPG" title="39">
+										
+								<img src="thumbs/SCAN0049.JPG" alt="39" title="39" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:759</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/STIF-HV-0018.jpg" title="40">
+										
+								<img src="thumbs/STIF-HV-0018.jpg" alt="40" title="40" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:768</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/STIF-HV-0020-2.jpg" title="41">
+										
+								<img src="thumbs/STIF-HV-0020-2.jpg" alt="41" title="41" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:740</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/STIF-HV-0021.jpg" title="42">
+										
+								<img src="thumbs/STIF-HV-0021.jpg" alt="42" title="42" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:768</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/STIF-HV-0022-2.jpg" title="43">
+										
+								<img src="thumbs/STIF-HV-0022-2.jpg" alt="43" title="43" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:652</span>
+						</li>
+						
+						<li class="">
+									
+
+							<a href="slides/STIF-HV-0022.jpg" title="44">
+										
+								<img src="thumbs/STIF-HV-0022.jpg" alt="44" title="44" style="width: 90px; height: 90px;" />
+							</a>
+							<span>width:1024;;height:576</span>
+						</li>
+						
+				</ul>
+				<div class="clear"></div>
+			</div>					
+			<img class="hide" id="right_arrow" src="res/right.png" alt="Scroll right" title="Scroll right" />
+			
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		<div id="middle_container">
+			<div id="main_image"></div>
+			<div id="extras"></div>
+		</div>
+	<div class="clear"></div>	
+</div>
+<div class="clear"></div>
+		<div id="footer">
+				<p id="bottom_container">
+					<a href="http://jalbum.net" target="_blank" title="jAlbum 10">Create photo album websites with jAlbum</a> and <a href="http://jalbum.net/skins/skin/Galleria" title="Galleria">Galleria</a>.
+				</p>
+		</div>
+		
+			<script type="text/javascript">
+				_jaWidgetBarColor = "white";
+			</script>
+		
+	<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript" charset="utf-8"><!--//--><![CDATA[//><!--
+_jaSkin = "Galleria";
+_jaStyle = "Light.css";
+_jaVersion = "10.10.8";
+_jaGeneratorType = "desktop";
+_jaLanguage = "en";
+_jaPageType = "index";
+_jaRootPath = ".";
+_jaGuid = "1357763459306";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</body>
+</html>
+

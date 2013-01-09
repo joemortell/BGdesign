@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>BGDesign</title>
+   	<link>.</link>
+        <generator>jAlbum 10</generator>
+   		<description></description>
+        <item>
+            <title>DSC_0186</title>
+            <link>slides/DSC_0186.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>1</description>
+            <media:description type="html">1</media:description>
+            <media:thumbnail url="thumbs/DSC_0186.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/DSC_0186.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="8/16/08 2:17 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D50"/>
+            <guid isPermaLink="false">slides/DSC_0186.JPG</guid>
+        </item>
+        <item>
+            <title>DSC00581</title>
+            <link>slides/DSC00581.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>2</description>
+            <media:description type="html">2</media:description>
+            <media:thumbnail url="thumbs/DSC00581.jpg" width="90" height="90"/>
+            <media:content  url="slides/DSC00581.jpg" width="640" height="414"/>
+            <jalbum:exif originalDate="5/6/06 4:33 PM" cameraMake="SONY" cameraModel="MVC-CD500"/>
+            <guid isPermaLink="false">slides/DSC00581.jpg</guid>
+        </item>
+        <item>
+            <title>DSC00583</title>
+            <link>slides/DSC00583.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>3</description>
+            <media:description type="html">3</media:description>
+            <media:thumbnail url="thumbs/DSC00583.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/DSC00583.JPG" width="1024" height="683"/>
+            <jalbum:exif originalDate="5/6/06 4:34 PM" cameraMake="SONY" cameraModel="MVC-CD500"/>
+            <guid isPermaLink="false">slides/DSC00583.JPG</guid>
+        </item>
+        <item>
+            <title>DSC00584</title>
+            <link>slides/DSC00584.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>4</description>
+            <media:description type="html">4</media:description>
+            <media:thumbnail url="thumbs/DSC00584.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/DSC00584.jpg" width="640" height="426"/>
+            <jalbum:exif originalDate="5/6/06 4:35 PM" cameraMake="SONY" cameraModel="MVC-CD500"/>
+            <guid isPermaLink="false">slides/DSC00584.jpg</guid>
+        </item>
+        <item>
+            <title>DSC00593</title>
+            <link>slides/DSC00593.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>5</description>
+            <media:description type="html">5</media:description>
+            <media:thumbnail url="thumbs/DSC00593.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/DSC00593.JPG" width="1024" height="683"/>
+            <jalbum:exif originalDate="5/6/06 4:38 PM" cameraMake="SONY" cameraModel="MVC-CD500"/>
+            <guid isPermaLink="false">slides/DSC00593.JPG</guid>
+        </item>
+        <item>
+            <title>DSC00605</title>
+            <link>slides/DSC00605.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>6</description>
+            <media:description type="html">6</media:description>
+            <media:thumbnail url="thumbs/DSC00605.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/DSC00605.jpg" width="640" height="414"/>
+            <jalbum:exif originalDate="5/6/06 4:46 PM" cameraMake="SONY" cameraModel="MVC-CD500"/>
+            <guid isPermaLink="false">slides/DSC00605.jpg</guid>
+        </item>
+        <item>
+            <title>Bathroom</title>
+            <link>slides/Bathroom.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>7</description>
+            <media:description type="html">7</media:description>
+            <media:thumbnail url="thumbs/Bathroom.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Bathroom.jpg" width="1024" height="685"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/Bathroom.jpg</guid>
+        </item>
+        <item>
+            <title>Garden</title>
+            <link>slides/Garden.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>8</description>
+            <media:description type="html">8</media:description>
+            <media:thumbnail url="thumbs/Garden.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Garden.jpg" width="1024" height="685"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/Garden.jpg</guid>
+        </item>
+        <item>
+            <title>Garden2</title>
+            <link>slides/Garden2.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>9</description>
+            <media:description type="html">9</media:description>
+            <media:thumbnail url="thumbs/Garden2.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Garden2.jpg" width="1024" height="685"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/Garden2.jpg</guid>
+        </item>
+        <item>
+            <title>Glass</title>
+            <link>slides/Glass.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>10</description>
+            <media:description type="html">10</media:description>
+            <media:thumbnail url="thumbs/Glass.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Glass.jpg" width="1024" height="685"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/Glass.jpg</guid>
+        </item>
+        <item>
+            <title>Piano</title>
+            <link>slides/Piano.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>11</description>
+            <media:description type="html">11</media:description>
+            <media:thumbnail url="thumbs/Piano.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Piano.jpg" width="1024" height="685"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/Piano.jpg</guid>
+        </item>
+        <item>
+            <title>Stairs</title>
+            <link>slides/Stairs.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>12</description>
+            <media:description type="html">12</media:description>
+            <media:thumbnail url="thumbs/Stairs.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Stairs.jpg" width="1024" height="685"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/Stairs.jpg</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_bathroom</title>
+            <link>slides/Ferry_House_-_bathroom.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>13</description>
+            <media:description type="html">13</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_bathroom.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_bathroom.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:50 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_bathroom.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_bedroom-2</title>
+            <link>slides/Ferry_House_-_bedroom-2.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>14</description>
+            <media:description type="html">14</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_bedroom-2.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_bedroom-2.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 1:02 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_bedroom-2.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_bedroom2-4</title>
+            <link>slides/Ferry_House_-_bedroom2-4.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>15</description>
+            <media:description type="html">15</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_bedroom2-4.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_bedroom2-4.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:57 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_bedroom2-4.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_dining_room-2</title>
+            <link>slides/Ferry_House_-_dining_room-2.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>16</description>
+            <media:description type="html">16</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_dining_room-2.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_dining_room-2.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:34 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_dining_room-2.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_kitchen-2</title>
+            <link>slides/Ferry_House_-_kitchen-2.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>17</description>
+            <media:description type="html">17</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_kitchen-2.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_kitchen-2.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:41 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_kitchen-2.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_rear_extl-1</title>
+            <link>slides/Ferry_House_-_rear_extl-1.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>18</description>
+            <media:description type="html">18</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_rear_extl-1.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_rear_extl-1.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 11:12 AM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_rear_extl-1.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_reception-3</title>
+            <link>slides/Ferry_House_-_reception-3.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>19</description>
+            <media:description type="html">19</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_reception-3.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_reception-3.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:26 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_reception-3.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_reception2-3</title>
+            <link>slides/Ferry_House_-_reception2-3.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>20</description>
+            <media:description type="html">20</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_reception2-3.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_reception2-3.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:29 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_reception2-3.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_reception3-5</title>
+            <link>slides/Ferry_House_-_reception3-5.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>21</description>
+            <media:description type="html">21</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_reception3-5.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_reception3-5.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 12:46 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_reception3-5.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_-_reception4-3</title>
+            <link>slides/Ferry_House_-_reception4-3.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>22</description>
+            <media:description type="html">22</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_-_reception4-3.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_-_reception4-3.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 1:09 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_-_reception4-3.JPG</guid>
+        </item>
+        <item>
+            <title>Ferry_House_£3-2.95m</title>
+            <link>slides/Ferry_House_£3-2.95m.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>23</description>
+            <media:description type="html">23</media:description>
+            <media:thumbnail url="thumbs/Ferry_House_£3-2.95m.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Ferry_House_£3-2.95m.JPG" width="1024" height="681"/>
+            <jalbum:exif originalDate="6/3/11 1:23 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D700"/>
+            <guid isPermaLink="false">slides/Ferry_House_£3-2.95m.JPG</guid>
+        </item>
+        <item>
+            <title>Kitchen 1</title>
+            <link>slides/Kitchen 1.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>24</description>
+            <media:description type="html">24</media:description>
+            <media:thumbnail url="thumbs/Kitchen 1.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Kitchen 1.jpg" width="1024" height="808"/>
+            <guid isPermaLink="false">slides/Kitchen 1.jpg</guid>
+        </item>
+        <item>
+            <title>Kitchen 3</title>
+            <link>slides/Kitchen 3.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>25</description>
+            <media:description type="html">25</media:description>
+            <media:thumbnail url="thumbs/Kitchen 3.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Kitchen 3.jpg" width="1024" height="808"/>
+            <guid isPermaLink="false">slides/Kitchen 3.jpg</guid>
+        </item>
+        <item>
+            <title>ph 01</title>
+            <link>slides/ph 01.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>26</description>
+            <media:description type="html">26</media:description>
+            <media:thumbnail url="thumbs/ph 01.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/ph 01.jpg" width="1024" height="698"/>
+            <guid isPermaLink="false">slides/ph 01.jpg</guid>
+        </item>
+        <item>
+            <title>ph 02</title>
+            <link>slides/ph 02.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>27</description>
+            <media:description type="html">27</media:description>
+            <media:thumbnail url="thumbs/ph 02.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/ph 02.jpg" width="1024" height="684"/>
+            <guid isPermaLink="false">slides/ph 02.jpg</guid>
+        </item>
+        <item>
+            <title>ph 05</title>
+            <link>slides/ph 05.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>28</description>
+            <media:description type="html">28</media:description>
+            <media:thumbnail url="thumbs/ph 05.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/ph 05.jpg" width="1024" height="701"/>
+            <guid isPermaLink="false">slides/ph 05.jpg</guid>
+        </item>
+        <item>
+            <title>Scan1</title>
+            <link>slides/Scan1.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>29</description>
+            <media:description type="html">29</media:description>
+            <media:thumbnail url="thumbs/Scan1.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan1.jpg" width="1024" height="774"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan1.jpg</guid>
+        </item>
+        <item>
+            <title>Scan2</title>
+            <link>slides/Scan2.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>30</description>
+            <media:description type="html">30</media:description>
+            <media:thumbnail url="thumbs/Scan2.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan2.jpg" width="1024" height="773"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan2.jpg</guid>
+        </item>
+        <item>
+            <title>Scan3</title>
+            <link>slides/Scan3.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>31</description>
+            <media:description type="html">31</media:description>
+            <media:thumbnail url="thumbs/Scan3.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan3.jpg" width="1024" height="775"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan3.jpg</guid>
+        </item>
+        <item>
+            <title>Scan4</title>
+            <link>slides/Scan4.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>32</description>
+            <media:description type="html">32</media:description>
+            <media:thumbnail url="thumbs/Scan4.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan4.jpg" width="1024" height="774"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan4.jpg</guid>
+        </item>
+        <item>
+            <title>Scan5</title>
+            <link>slides/Scan5.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>33</description>
+            <media:description type="html">33</media:description>
+            <media:thumbnail url="thumbs/Scan5.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan5.jpg" width="1024" height="706"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan5.jpg</guid>
+        </item>
+        <item>
+            <title>Scan6</title>
+            <link>slides/Scan6.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>34</description>
+            <media:description type="html">34</media:description>
+            <media:thumbnail url="thumbs/Scan6.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan6.jpg" width="1024" height="775"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan6.jpg</guid>
+        </item>
+        <item>
+            <title>Scan7</title>
+            <link>slides/Scan7.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>35</description>
+            <media:description type="html">35</media:description>
+            <media:thumbnail url="thumbs/Scan7.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan7.jpg" width="1024" height="699"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan7.jpg</guid>
+        </item>
+        <item>
+            <title>Scan8</title>
+            <link>slides/Scan8.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>36</description>
+            <media:description type="html">36</media:description>
+            <media:thumbnail url="thumbs/Scan8.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/Scan8.jpg" width="1024" height="717"/>
+            <jalbum:exif originalDate="" cameraMake="HP" cameraModel="Photosmart C5100 series"/>
+            <guid isPermaLink="false">slides/Scan8.jpg</guid>
+        </item>
+        <item>
+            <title>SCAN0047</title>
+            <link>slides/SCAN0047.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>37</description>
+            <media:description type="html">37</media:description>
+            <media:thumbnail url="thumbs/SCAN0047.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/SCAN0047.JPG" width="1024" height="799"/>
+            <guid isPermaLink="false">slides/SCAN0047.JPG</guid>
+        </item>
+        <item>
+            <title>SCAN0048</title>
+            <link>slides/SCAN0048.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>38</description>
+            <media:description type="html">38</media:description>
+            <media:thumbnail url="thumbs/SCAN0048.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/SCAN0048.JPG" width="1024" height="740"/>
+            <guid isPermaLink="false">slides/SCAN0048.JPG</guid>
+        </item>
+        <item>
+            <title>SCAN0049</title>
+            <link>slides/SCAN0049.JPG#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>39</description>
+            <media:description type="html">39</media:description>
+            <media:thumbnail url="thumbs/SCAN0049.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/SCAN0049.JPG" width="1024" height="759"/>
+            <guid isPermaLink="false">slides/SCAN0049.JPG</guid>
+        </item>
+        <item>
+            <title>STIF-HV-0018</title>
+            <link>slides/STIF-HV-0018.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>40</description>
+            <media:description type="html">40</media:description>
+            <media:thumbnail url="thumbs/STIF-HV-0018.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/STIF-HV-0018.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="7/4/08 11:33 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/STIF-HV-0018.jpg</guid>
+        </item>
+        <item>
+            <title>STIF-HV-0020-2</title>
+            <link>slides/STIF-HV-0020-2.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>41</description>
+            <media:description type="html">41</media:description>
+            <media:thumbnail url="thumbs/STIF-HV-0020-2.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/STIF-HV-0020-2.jpg" width="1024" height="740"/>
+            <jalbum:exif originalDate="8/14/08 11:29 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/STIF-HV-0020-2.jpg</guid>
+        </item>
+        <item>
+            <title>STIF-HV-0021</title>
+            <link>slides/STIF-HV-0021.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>42</description>
+            <media:description type="html">42</media:description>
+            <media:thumbnail url="thumbs/STIF-HV-0021.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/STIF-HV-0021.jpg" width="1024" height="768"/>
+            <jalbum:exif originalDate="7/4/08 12:10 PM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/STIF-HV-0021.jpg</guid>
+        </item>
+        <item>
+            <title>STIF-HV-0022-2</title>
+            <link>slides/STIF-HV-0022-2.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>43</description>
+            <media:description type="html">43</media:description>
+            <media:thumbnail url="thumbs/STIF-HV-0022-2.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/STIF-HV-0022-2.jpg" width="1024" height="652"/>
+            <jalbum:exif originalDate="8/14/08 11:56 AM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/STIF-HV-0022-2.jpg</guid>
+        </item>
+        <item>
+            <title>STIF-HV-0022</title>
+            <link>slides/STIF-HV-0022.jpg#</link>
+            <pubDate>Wed, 09 Jan 2013 21:26:35 +0000</pubDate>
+            <description>44</description>
+            <media:description type="html">44</media:description>
+            <media:thumbnail url="thumbs/STIF-HV-0022.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/STIF-HV-0022.jpg" width="1024" height="576"/>
+            <jalbum:exif originalDate="7/4/08 12:35 PM" cameraMake="Phase One" cameraModel="P 45"/>
+            <guid isPermaLink="false">slides/STIF-HV-0022.jpg</guid>
+        </item>
+    </channel>
+</rss>
